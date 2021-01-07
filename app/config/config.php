@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL', 'http://http://agus7fauzi-live.my.id/php-mvc-rev/php-mvc/public');
+define('BASEURL', 'http://agus7fauzi-live.my.id/php-mvc-rev/public');
 define('PUBLIC_PATH', __DIR__ . '/../../public');
 
 define('DB_HOST', 'localhost');

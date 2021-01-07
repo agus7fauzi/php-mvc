@@ -30,8 +30,10 @@ class Home extends Controller {
             header('Location: ' . BASEURL . '/home');
             exit;
         }
-        
         $_POST['image'] = $image;
+        var_dump($image);
+        var_dump($_POST);
+        die;
 
         if ($this->model('Books_model')->addABook($_POST) > 0) {
             Flasher::setFlash('OK!', 'Success', 'to Added', 'success');
